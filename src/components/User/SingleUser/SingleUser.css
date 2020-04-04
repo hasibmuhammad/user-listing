@@ -1,0 +1,35 @@
+.user-avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+
+}
+
+.user-avatar img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.connect-btn {
+    border: 2px solid lightseagreen;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    background-color: #131b2d;
+    color: #fff;
+}
+
+.connect-btn:hover {
+    cursor: pointer;
+}
